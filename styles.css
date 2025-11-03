@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mainContainer{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns:12rem 1fr ;
+    grid-template-rows: 10rem 1fr;
+    grid-template-areas: 
+    "sidebar navbar"
+    "sidebar mainContent"
+    ;
+}
+.sidebar{
+    background-color: #1e90FF;
+}
+.navbar{
+    background-color: white;
+}
+.mainContent{
+    background-color: #c0c0c0;
+}
+.icon{
+    color: #ffff;
+    height: 3rem;
+    width: 3rem;
+}
+.top{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+h2{
+    color: white;
+}
