@@ -29,6 +29,8 @@
 }
 .mainContent{
     background-color: #c0c0c0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 svg{
     display:flex ;
@@ -118,4 +120,14 @@ button{
     border: none;
     border-radius: 15px;
     background-color: #1e90FF;
+    color: white;
+}
+img{
+    height: 5px;
+    width: 5px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr ;
 }
