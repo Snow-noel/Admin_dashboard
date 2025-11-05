@@ -123,11 +123,54 @@ button{
     color: white;
 }
 img{
-    height: 5px;
-    width: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    border-radius: 50%;
 }
 .projects{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:1fr 1fr 1fr ;
+    gap: 0.5rem;
+    margin: 1rem 1rem;
+}
+.Emmie,.James,.skymanny,.snow{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+.others{
+    display: grid;
+    margin: 1rem 0.5rem;
+}
+.Treding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 13rem;
+    border-radius: 10px;
+}
+.announcements{
+    width: 13rem;
+    height: 18rem;
+    background-color: white;
+    border-radius: 10px;
+}
+div > h4{
+    color: black;
+}
+.first{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.second{
+    border-bottom: 1px gray solid;
+    padding: 0.5rem;
+}
+.seconds{
+    margin-top: 1rem;
 }
